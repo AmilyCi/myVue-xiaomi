@@ -1,0 +1,29 @@
+{
+  "name": "myvue-xiaomi",
+  "version": "1.0.0",
+  "description": "仿照小米手机版官网，用vue搭建的一个项目",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmilyCi/myVue-xiaomi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmilyCi/myVue-xiaomi/issues"
+  },
+  "homepage": "https://github.com/AmilyCi/myVue-xiaomi#readme",
+  "devDependencies": {
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.21"
+  }
+}
