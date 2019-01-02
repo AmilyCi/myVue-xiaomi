@@ -1,7 +1,6 @@
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
-    mode: 'production',
     entry: {
         app:'./src/main.js' // 入口文件的位置
     },
