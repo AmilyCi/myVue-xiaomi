@@ -27,16 +27,30 @@
   }
 </script>
 <style lang='less'>
-  .base{
+  .base {
     display: block;
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: 200;
   }
-  .load-once{
-    background: url(../images/mi_load.png) no-repeat center center;
+  .load-once {
+    background: #F87300 url(../images/mi_load.png) no-repeat center center;
     background-size: 80px;
     opacity: 1;
+    &.remove {
+      opacity: 0;
+    }
+  }
+  .load {
+    background: url(../images/mi_load.png) no-repeat center center;
+    background-sizw: 80px;
+    opacity: 1;
+  }
+  .fade-enter-active, .fade-leave-active{
+    transition: opacity 0.5s;
+  }
+  .fade-enter, .fade-leave-to{
+    opacity: 0;
   }
 </style>

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import App from './App';
+import App from './App.vue';
 import Index from './views/index.vue';
 import Goods from './views/goods.vue';
 import Cart from './views/cart.vue';
