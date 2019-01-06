@@ -7,18 +7,18 @@
 </template>
 <script>
   import util from "../../lib/util.js"
-  import load from "../compoments/loading.vue"
-
+  import load from "../components/loading.vue"
   export default {
     components: {
       'mi-load': load
     },
     data () {
       return {
+        load: false,
         indexStyle: {
           height: util.screenSize().height + 'px',
-          'overflow-y': 'scroll',
-          width: 100%
+          'overfl-y': 'scroll',
+          width: '100%'
         }
       }
     }

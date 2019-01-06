@@ -8,7 +8,7 @@
 </template>
 <script>
   export default {
-    props: [load],
+    props: ['load'],
     data (){
       return {
         loadState: true,
@@ -43,8 +43,8 @@
     }
   }
   .load {
-    background: url(../images/mi_load.png) no-repeat center center;
-    background-sizw: 80px;
+    background: url(../images/loading.gif) no-repeat center center;
+    background-size: 80px;
     opacity: 1;
   }
   .fade-enter-active, .fade-leave-active{
