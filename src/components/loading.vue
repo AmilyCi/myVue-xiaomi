@@ -38,6 +38,7 @@
     background: #F87300 url(../images/mi_load.png) no-repeat center center;
     background-size: 80px;
     opacity: 1;
+    transition: all 0.5s;
     &.remove {
       opacity: 0;
     }

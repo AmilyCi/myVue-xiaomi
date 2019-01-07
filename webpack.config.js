@@ -14,7 +14,9 @@ module.exports = {
     devtool: 'inline-source-map', // 浏览器报错了可以显示源码位置，不至于显示压缩好的码文，看不懂
     devServer: {
         contentBase: path.join(__dirname, "dist"), // 服务器读取资源的位置
-        hot: true // 开启热加载
+        hot: true, // 开启热加载
+        host:'127.0.0.1', 
+        port:8088 
     }, // 配合package.json中scripts中dev指令，运行的时候会找到这里，但是热加载需要引用下面的插件
     resolve:{
         alias:{
@@ -32,7 +34,7 @@ module.exports = {
                 use: ['vue-style-loader','css-loader','less-loader']
             }, // 按照style,css,less的解析顺序写，可以解析less文件
             {
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(png|jpg|gif|svg)$/,
                 use: [
                   {
                     loader: 'file-loader',
