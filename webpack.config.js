@@ -43,6 +43,10 @@ module.exports = {
                     }
                    } // 处理图片的loader,配置options,打包之后命名以（图片的名字+hash六位.图片的格式）命名
                 ]
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             }
         ]
     },
