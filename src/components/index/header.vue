@@ -17,6 +17,9 @@
       <div class="main" v-show="focus">
         <div class="title">热门搜索</div>
         <img :src="searchImg">
+        <ul>
+          <li v-for="item in hotWord" @click="inputFillEvent(item)">{{ item }}</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -33,6 +36,7 @@
         },
         inputText: '',
         searchImg: '',
+        hotWord: ['红米4 超长续航','小米note2','小米5s','小米8','笔记本','小米电视','智能电饭煲']
       }
     },
     created () {
@@ -51,7 +55,10 @@
       handleFocus () {
         this.focus = true;
         this.$emit('searchEvent',true);
-      }
+      },
+      inputFillEvent (word) {
+        this.inputText = word
+      } 
     }
   } 
 </script>
@@ -157,6 +164,21 @@
       font-size: 16px;
       color: #333;
       text-indent: 20px;
+    }
+    img {
+      width: 100%;
+    }
+    ul {
+      padding: 0 10px;
+      li {
+        list-style-type: none;
+        font-size: 16px;
+        padding: 8px 10px;
+        margin: 5px;
+        display: inline-block;
+        background: #F8F2EC;
+        border: 1px solid #FAC288;
+      }
     }
   }   
 </style>
