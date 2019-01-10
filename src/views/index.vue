@@ -16,7 +16,7 @@
   import footer from "../components/index/footer.vue";
   import header from "../components/index/header.vue";
   import banner from "../components/index/banner.vue";
-  import data from "../../../data.json";
+  import data from "../../data.json";
 
   export default {
     components: {
