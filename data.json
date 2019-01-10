@@ -1,3 +1,12 @@
 {
+  "banner": {
+    "bannerTop": [
+      "https://i8.mifile.cn/v1/a1/45e7752a-192a-c2b2-3978-a43ccfc49de0.webp",
+      "https://i8.mifile.cn/v1/a1/89a33760-240c-e5e2-50ff-b8a864a2aba5.webp",
+      "https://i8.mifile.cn/v1/a1/2e1d1dc6-536e-933b-df99-428343fdf62c.webp"
+    ],
+    "img1": "https://i8.mifile.cn/v1/a1/89a33760-240c-e5e2-50ff-b8a864a2aba5.webp",
+    "img2": "https://i8.mifile.cn/v1/a1/f6225781-335e-1d31-a99f-760977c18c65.webp?width=720&heihgt=200"
+  },
   "searchImg": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a425e85fa21ed71c2a8d64fe86f833f9.jpg?width=720&heihgt=200"
 }
