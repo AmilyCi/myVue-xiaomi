@@ -34,6 +34,10 @@ module.exports = {
                 use: ['vue-style-loader','css-loader','less-loader']
             }, // 按照style,css,less的解析顺序写，可以解析less文件
             {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
                 test: /\.(png|jpg|gif|svg)$/,
                 use: [
                   {

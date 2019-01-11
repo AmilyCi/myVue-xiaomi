@@ -4,11 +4,14 @@ import Index from './views/index.vue';
 import Goods from './views/goods.vue';
 import Cart from './views/cart.vue';
 
+import VueAwesomeSwiper from 'vue-awesome-swiper';
 import VueRouter from 'vue-router';
 import Element from 'element-ui';
+import 'swiper/dist/css/swiper.css';
 
 Vue.use(VueRouter);
 Vue.use(Element);
+Vue.use(VueAwesomeSwiper);
 
 const routes = [
   { path: '/', redirect: '/index' },
