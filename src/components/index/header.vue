@@ -18,7 +18,7 @@
         <div class="title">热门搜索</div>
         <img :src="searchImg">
         <ul>
-          <li v-for="(index,item) in hotWord" :key="index" @click="inputFillEvent(item)">{{ item }}</li>
+          <li v-for="(item,index) in hotWord" :key="index" @click="inputFillEvent(item)">{{ item }}</li>
         </ul>
       </div>
     </div>
