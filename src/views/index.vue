@@ -2,9 +2,11 @@
   <div class="app">
     <div :style="indexStyle" ref="index">
       <mi-load :load="load"></mi-load>
-      <mi-header @searchEvent="searchHandle" :opac="headerOpacity"></mi-header>
+      
       <div v-show='a'>
+        <mi-header @searchEvent="searchHandle" :opac="headerOpacity"></mi-header>
         <mi-banner :banner="banner"></mi-banner>
+        <mi-menu :menu="menu"></mi-menu>
         <mi-footer></mi-footer>
       </div>
     </div>
@@ -17,20 +19,23 @@
   import header from "../components/index/header.vue";
   import banner from "../components/index/banner.vue";
   import data from "../../data.json";
+  import menu from "../components/index/menu.vue";
 
   export default {
     components: {
       'mi-load': load,
       'mi-footer': footer,
       'mi-header': header,
-      'mi-banner': banner
+      'mi-banner': banner,
+      'mi-menu': menu
     },
     created () {
       let mi = this;
       setTimeout(function(){
         mi.a = true;
       },2000)
-      mi.banner = data.banner
+      mi.banner = data.banner;
+      mi.menu = data.menu;
     },
     mounted () {
       let mi = this;
@@ -51,6 +56,7 @@
           width: '100%'
         },
         headerOpacity: 0,
+        menu: ''
       }
     },
     methods: {

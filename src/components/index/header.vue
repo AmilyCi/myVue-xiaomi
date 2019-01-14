@@ -88,6 +88,7 @@
     font-size: 0;
     position: fixed;
     color: #fff;
+    z-index: 200;
     .bg {
       .absolute100;
       background: #ff6700;

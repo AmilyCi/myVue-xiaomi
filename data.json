@@ -8,5 +8,10 @@
     "img1": "https://i8.mifile.cn/v1/a1/89a33760-240c-e5e2-50ff-b8a864a2aba5.webp",
     "img2": "https://i8.mifile.cn/v1/a1/f6225781-335e-1d31-a99f-760977c18c65.webp?width=720&heihgt=200"
   },
-  "searchImg": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a425e85fa21ed71c2a8d64fe86f833f9.jpg?width=720&heihgt=200"
+  "searchImg": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a425e85fa21ed71c2a8d64fe86f833f9.jpg?width=720&heihgt=200",
+  "menu": {
+    "img1": "https://i8.mifile.cn/v1/a1/6bc707a3-927e-ebcd-3c7a-1e91d6f793aa.webp?width=360&heihgt=513",
+    "img2": "https://i8.mifile.cn/v1/a1/bb2a27db-0433-47dc-b55c-c36b81fa7e41.webp?width=360&heihgt=256",
+    "img3": "https://i8.mifile.cn/v1/a1/1fbd6d1f-05bf-f22e-cba8-250dfade437d.webp?width=360&heihgt=256"
+  }
 }

@@ -39,8 +39,11 @@ export default {
 </script>
 <style lang="less" scoped>
 .banner-box {
- width: 100%;
-    margin-top: 40px;
+  width: 100%;
+  z-index: 100;
+  img {
+    width: 100%;
+  } 
 }
 
 </style>
