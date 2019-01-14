@@ -32,7 +32,7 @@
       return {
         focus: false,
         bgOpacSty: {
-          opacity: 1
+          opacity: 0
         },
         inputText: '',
         searchImg: '',

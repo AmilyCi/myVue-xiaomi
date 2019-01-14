@@ -1,9 +1,9 @@
 <template>
   <div class="app">
     <div :style="indexStyle" ref="index">
-      <mi-load :load="load"></mi-load>   
-      <div v-show='a'>
-        <mi-header @searchEvent="searchHandle" :opac="headerOpacity"></mi-header>
+      <mi-load :load="load"></mi-load>
+      <mi-header @searchEvent="searchHandle" :opac="headerOpacity"></mi-header>   
+      <div v-show='a'>       
         <mi-banner :banner="banner"></mi-banner>
         <mi-menu :menu="menu"></mi-menu>
         <mi-body :body="body"></mi-body>
@@ -55,7 +55,7 @@
         searchState: false,
         indexStyle: {
           height: util.screenSize().height + 'px',
-          'overfl-y': 'scroll',
+          'overflow-y': 'scroll',
           width: '100%'
         },
         headerOpacity: 0,
