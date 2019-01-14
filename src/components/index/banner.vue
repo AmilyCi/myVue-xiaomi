@@ -40,7 +40,6 @@ export default {
 <style lang="less" scoped>
 .banner-box {
   width: 100%;
-  z-index: 100;
   img {
     width: 100%;
   } 

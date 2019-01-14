@@ -32,7 +32,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: 200;
+    z-index: 300;
   }
   .load-once {
     background: #F87300 url(../images/mi_load.png) no-repeat center center;
