@@ -21,10 +21,10 @@ export default {
       // autoplay: 3000,
       speed: 1000,
       loop:true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-          },
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        }
       }
     }
   },
