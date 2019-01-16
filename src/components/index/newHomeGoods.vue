@@ -57,7 +57,9 @@ export default {
       width: 100%;
       display: block;
       color: #666;
-      line-height: 14px;
+      line-height: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     .price {
       width: 100%;
