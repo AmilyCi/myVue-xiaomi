@@ -71,7 +71,7 @@ export default {
     }
   }
   .new-box {
-    margin-top: 10px;
+    margin-top: 2px;
     overflow: hidden;
     width: 100%;
     background: #fff;
@@ -79,6 +79,7 @@ export default {
     .newGoodsBanner {
       padding-top: 7px;
       width: 100%;
+      margin-bottom: 7px;
       font-size: 0;
       .img100;
     }
