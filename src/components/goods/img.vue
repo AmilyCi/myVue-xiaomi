@@ -27,10 +27,10 @@ export default {
       swiperOption: {
       speed: 1000,
       loop:true,
-      autoplay: {
-          delay: 2500,
-          disableOnInteraction: true
-        },
+      // autoplay: {
+      //     delay: 2500,
+      //     disableOnInteraction: true
+      //   },
       pagination: {
             el: '.swiper-pagination'
           }  
@@ -92,7 +92,7 @@ export default {
   }
 </style>
 <style>
-.swiper-pagination-bullet-active {
-    background: #ff8b0f;
-  }
+  .swiper-pagination-bullet-active {
+    background: #ff8b0f !important;
+  }  
 </style>
