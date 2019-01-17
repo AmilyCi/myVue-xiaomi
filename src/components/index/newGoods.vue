@@ -7,6 +7,7 @@
     v-for="(good,index) in newGoodsList"
     :key="index"
     :class="{'item1': index % 2 === 0, 'item2': index % 2 !== 0}"
+    @click="productEvent"
     >
       <div class="top">
         <img :src="good.imgSrc"/>
@@ -33,6 +34,11 @@ export default {
     this.newGoodsBannerSrc = this.body.newGoods.img;
     this.newGoodsList = this.body.newGoods.newGoodsList;
     console.log('newGoodsBannerSrc::::',this.newGoodsBannerSrc)
+  },
+  methods: {
+    productEvent () {
+      this.$router.push({path:'/goods'});
+    }
   }
 }
 </script>
